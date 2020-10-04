@@ -1,0 +1,6 @@
+function random()
+{
+    var quotes=["\"Farming looks mighty easy when your plow is a pencil, and you’re a thousand miles from the corn field.\" ", "\"No race can prosper until it learns there is as much dignity in tilling a field as in writing a poem.\"","\"The farmer works the soil, The agriculturist works the farmer\"", "\"Earth is here so kind, that just tickle her with a hoe and she laughs with a harvest\" ", "\"When tillage begins, other arts follow. The farmers, therefore, are the founders of human civilization.\"","\"Agriculture is the most healthful, most useful, and most noble employment of man.\"","\"Farmers are backbone of a country and you can’t stand straight if your backbone is broken.\""," \"The life of a farmer is very tough as he works very hard day and night in all seasons for us.\"","\"The farmer is the only man in our economy who buys everything at retail, sells everything at wholesale, and pays the freight both ways.Why not change it?\"","\"If the farmer is rich, then so is the nation.\"","\"The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.\"","\"We've got this cultural mentality that you've got to be an idiot to be a farmer.\""];
+
+document.getElementById("demo").innerHTML=quotes[Math.floor(Math.random() * 11) ];
+}
